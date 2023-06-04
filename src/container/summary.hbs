@@ -1,0 +1,32 @@
+<main>
+	<div>
+		{{#with main}}
+		<main>
+			<section class="mb-3">
+				{{#with summary}}
+				{{> title data=title big=true}}
+				{{/with}}
+				<div>
+					<p>
+						{{summary.text}}
+					</p>
+				</div>
+			</section>
+
+			{{#with experience}}
+			<section>
+				<div>
+					{{> title data=title big=false}}
+				</div>
+				<div>
+					<p>
+						{{text}}
+					</p>
+				</div>
+			</section>
+			{{/with}}
+		</main>
+		{{/with}}
+	</div>
+
+</main>
