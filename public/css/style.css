@@ -1,4 +1,21 @@
-h1 {
+/* h1 {
   background-color: #211b1b;
   color: chartreuse;
+} */
+
+html {
+  background-image: url(/public/img/6222603.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: grey;
 }
+
+/* body {
+  background-image: url(/public/img/6222603.png);
+  background: gray;
+} */
