@@ -3,7 +3,7 @@
   color: chartreuse;
 } */
 
-html {
+/* html {
   background-image: url(/public/img/6222603.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,9 +13,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background: grey;
-}
+} */
 
 /* body {
   background-image: url(/public/img/6222603.png);
   background: gray;
 } */
+
+body {
+  color: #fff;
+}
